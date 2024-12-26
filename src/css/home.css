@@ -1,0 +1,82 @@
+.hmain{
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    margin-top: -63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+}
+#hb{
+    background-image: url("../image/bgmi.jpg");
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    border: 4px solid white;
+}
+#hb:hover{
+    border: 4px solid red;
+}
+#hf{
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    background-image: url("../image/freefire.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+}
+#hf:hover{
+    border: 4px solid red;
+}
+#hh{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+}
+.hbody{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px dashed white;
+}
+@media screen and (max-width:600px){
+    #hh{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .hbody{
+        height: 200px;
+        border: none;
+    }
+    #hb,#hf{
+        height: 100px;
+        width: 100px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    #hh{
+        font-size: 80px;
+        margin-bottom: 10px;
+    }
+    .hbody{
+        height: 400px;
+        width: 600px;
+        border: none;
+    }
+    #hb,#hf{
+        height: 200px;
+        width: 200px;
+    }
+    .hmain{
+        margin-top: -100px;
+    }
+}

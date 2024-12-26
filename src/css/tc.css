@@ -1,0 +1,13 @@
+.tcmain{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -62px;
+}
+.tcmain h2{
+    color: red;
+}
+.tcmain{
+    color:black;
+}

@@ -1,0 +1,129 @@
+.formain {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: absolute;
+  margin-top: -62px;
+}
+.forbody {
+  padding: 20px;
+  border: 4px solid white;
+  width: 200px;
+  height: 100px;
+}
+.forbody input {
+  width: 100%;
+  box-sizing: border-box;
+}
+#forbut {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#forbut button {
+  border-radius: 20px;
+  border: 2px solid red;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+.sm {
+  margin-top: 10px;
+}
+#formess {
+  text-align: center;
+  color: red;
+}
+#fpvm {
+  text-align: center;
+  color: red;
+}
+.fpav {
+  padding: 20px;
+  border: 4px solid white;
+  width: 250px;
+}
+.fpv {
+  padding: 20px;
+  border: 4px solid white;
+  width: 200px;
+  height: 150px;
+}
+.fpvb {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fpvb button {
+  display: inline-block;
+  border-radius: 20px;
+  border: 2px solid red;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+.fpv input {
+  width: 100%;
+  box-sizing: border-box;
+}
+.fpav input {
+  display: inline-block;
+  width: 210px;
+  box-sizing: border-box;
+}
+#fpt {
+  color: white;
+}
+#osend {
+  color: green;
+}
+#cns {
+  margin-left: 8px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("../image/sp.png");
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  color: white;
+  
+}
+#cns:hover {
+  border: 2px solid red;
+}
+#cnh:hover {
+  border: 2px solid red;
+}
+#cnh {
+  margin-left: 8px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("../image/hp.png");
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  color: white;
+}
+#psc{
+  color: red;
+}
+#cnpm{
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+  font-size: 10px;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px){
+  .formain{
+    margin-top: -103px;
+  }
+}

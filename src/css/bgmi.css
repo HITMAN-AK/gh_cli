@@ -1,0 +1,176 @@
+.bmain{
+   background-color: rgb(0, 0, 0);
+   position: absolute;
+   width: 100%;
+   z-index: -1;
+}
+#bsolo{
+    margin-top: 0px;
+}
+.bdiv{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-right: 4px solid rgb(255, 255, 255);
+    border-left: 4px solid rgb(255, 255, 255);
+    height: 350px;
+    width: 100%;
+}
+#bp{
+    position:relative;
+    width: 70%;
+    height: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#ibp{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+.bimage{
+    width: 100%;
+    height: 60%;
+    background-image: url("../image/PUBG.jpg");
+    background-position: center;
+    background-size: cover;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+.bdown1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+.bdown1 h4{
+    color: white;
+}
+.bdown2{
+    display:flex;
+    justify-content: space-between ;
+    background-color: rgb(0, 0, 0);
+    height: 72px;
+    border-bottom: 4px solid white;
+}
+.bjoin{
+    border-radius: 20px;
+    width: 70px;
+    height: 25px;
+    margin-top: 2px;
+    margin-right: 6px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: 2px solid red;
+}
+#bpn{
+    margin-top: 7px;
+    margin-right: 80px;
+    color: white;
+}
+.bjoin:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.bjoined{
+    margin-right: 18px;
+    margin-top: 5px;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    height: fit-content;
+}
+.bl{
+    margin-right: 20px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    display: inline-block;
+}
+.bl:hover{
+    color: red;
+}
+.ps{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    background-color: rgb(0, 0, 0); 
+    border: solid 4px rgb(255, 0, 0);
+    box-sizing: border-box;
+    height: 350px;
+    width: 100%;
+}
+.ps button{
+    font-weight: bolder;
+}
+.ps button:hover{
+    border: 2px solid red;
+    color: white;
+    background-color: black;
+}
+.bdown1 span{
+    color: red;
+}
+@media screen and (max-width:600px) {
+    .bdiv{
+        height: 350px;
+    }
+    .bdown1 h4{
+        font-size: 10px;
+    }
+    .bdown1 span{
+        color: red;
+    }
+    .bimage{
+        height: 70%;
+    }
+    #bpn{
+        margin-right: 15px;
+    }
+    #bp{
+        margin-right: 6px;
+    }
+    .bl{
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .ps{
+        height: 250px;
+    }
+    .bjoined{
+        font-size: 11px;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .bdiv{
+        height: 450px;
+    }
+    .bdown1 h4{
+        font-size: 20px;
+    }
+    .bdown1 span{
+        color: red;
+    }
+    .bimage{
+        height: 75%;
+    }
+    #bpn{
+        margin-right: 20px;
+    }
+    #bp{
+        margin-right:0px;
+    }
+    .bl{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .ps{
+        height: 450px;
+    }
+    .bjoined{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+  }
+  

@@ -1,0 +1,89 @@
+.wmain{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -62px;
+   background-color: black;
+   z-index: -1;
+}
+.wbody{
+    height: 160px;
+    width: 240px;
+    padding: 10px;
+    border: 4px solid white;
+}
+.wh{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: darkgreen;
+}
+.wbody input{
+    box-sizing: border-box;
+    width: 100%;
+}
+#wlabel{
+    font-size: 10px;
+    color: white;
+}
+#wlabel span{
+    color: red;
+}
+#wsubmit{
+    font-size: 10px;
+    margin-left: 39%;
+    border-radius: 20px;
+    border: 2px solid red;
+    color: white;
+    background-color: black;
+}
+#wstatus{
+    text-align: center;
+    font-size: 10px;
+    color: red;
+    font-weight: bolder;
+}
+.wbody input::placeholder{
+    text-align: center;
+    color: black;
+}
+#we{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    display: none;
+}
+#wupi:focus + #we{
+    display: block;
+}
+#we span{
+    color: white;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    .wbody{
+        height: 250px;
+        width: 400px;
+    }
+    .wh{
+        font-size: 30px;
+    }
+    .wbody input{
+        margin-top: 18px;
+        font-size: 20px;
+    }
+    #wsubmit{
+        margin-top: 25px;
+        font-size: 15px;
+    }
+    #wstatus{
+        font-size: 15px;
+    }
+    #we{
+        font-size: 20px;
+    }
+}
+
+  

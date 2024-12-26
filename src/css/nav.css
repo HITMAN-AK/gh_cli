@@ -1,0 +1,275 @@
+#nh1 {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  animation: colorChange 5s infinite;
+}
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: red;
+  }
+  75% {
+    color: white;
+  }
+  100% {
+    color: red;
+  }
+}
+.nav {
+  background-color: black;
+  border-bottom: solid 4px white;
+  height: 58px;
+}
+.nmain {
+  z-index: 1;
+  width: 100%;
+}
+.nmain button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.hur {
+  margin-top: 10px;
+  margin-left: 54%;
+  display: inline-block;
+}
+.hur button {
+  padding: 5px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  font-weight: bolder;
+}
+.p {
+  display: inline-block;
+}
+.p button {
+  margin-left: 20px;
+  padding: 5px;
+  width: 150px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  font-weight: bolder;
+}
+.dw {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  margin-top: -5px;
+  position: absolute;
+  z-index: 1;
+}
+.dw button {
+  width: 160px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-weight: bolder;
+  border-left: 4px solid rgb(255, 255, 255);
+  border-right: 4px solid rgb(255, 255, 255);
+  border-bottom: 4px solid rgb(255, 255, 255);
+}
+.ur {
+  margin-left: 20px;
+}
+.ndd {
+  display: none;
+}
+#dcoin{
+  width: 80px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url("../image/note.jpg");
+  background-position: center;
+  background-size: cover;
+  mix-blend-mode:multiply;
+  border: 0px;
+}
+#spcoin{
+  font-weight: bolder;
+  margin-top: 5px;
+  border-bottom: 4px solid rgb(255, 255, 255);
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  width: 143px;
+  padding: 5px;
+  background-color: green;
+  color: red;
+}
+@media screen and (max-width: 600px) {
+  .nav {
+    background-color: rgb(0, 0, 0);
+  }
+  #nh1 {
+    font-size: 30px;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
+  .ndd {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: -38px;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  #ndd {
+    height: 40px;
+    width: 40px;
+    border: 0px;
+    background-image: url("../image/menu.png");
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+  }
+  #ndd:active{
+    border: 2px solid red;
+  }
+  .hur {
+    display: none;
+  }
+  .p {
+    display: none;
+  }
+  .drop span {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 4px;
+    display: flex;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+  }
+  .drop span:hover{
+    color: red;
+  }
+  .idrop {
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .drop {
+    margin-top: 14px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+  }
+  #coin {
+    background-image: url("../image/note.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    margin-top: -10px;
+    mix-blend-mode:multiply;
+    margin-right: 20px;
+    border: 0px;
+  }
+  #cspan{
+    background-color: darkgreen;
+    font-weight: bolder;
+    color: red;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .nav {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+  }
+  #nh1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .ndd {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: -38px;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  #ndd {
+    height: 98px;
+    width: 90px;
+    margin-top: -38px;
+    border: 0px;
+    background-image: url("../image/menu.png");
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+  }
+  #ndd:active{
+    border: 4px solid red;
+  }
+  .hur {
+    display: none;
+  }
+  .p {
+    display: none;
+  }
+  .drop span {
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    width: 350px;
+    justify-content: flex-end;
+    padding-top: 25px;
+    padding-right: 20px;
+    display: flex;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+  }
+  .idrop {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .drop {
+    margin-top: 25px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+  }
+  #coin {
+    background-image: url("../image/note.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    margin-top: -10px;
+    margin-right: 20px;
+    mix-blend-mode:multiply;
+    border: 0px;
+  }
+  #cspan{
+    background-color: darkgreen;
+    font-weight: bolder;
+    color: red;
+  }
+}
+@media screen and (min-width: 1001px){
+  .hur{
+    margin-top: -15px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #nh1{
+    display: inline;
+    font-size: 30px;
+  }
+}

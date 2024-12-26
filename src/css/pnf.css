@@ -1,0 +1,22 @@
+.pnfmain{
+    height:100vh;
+    width: 100%;
+    background-image: url("../image/404.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-top: -62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pnfbody{
+    font-size: 20px;
+    color: #ff0000;
+    animation: fadeInOut 2s ease-in-out infinite;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    .pnfmain{
+        margin-top: -104px;
+    }
+}

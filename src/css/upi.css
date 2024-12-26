@@ -1,0 +1,104 @@
+.upi{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -62px;
+    background-color: rgb(0, 0, 0);
+    z-index: -1;
+}
+.upi input{
+    box-sizing: border-box;
+    width: 100%;
+}
+.upi input::placeholder{
+    text-align: center;
+    color: black;
+}
+.uss{
+    margin-top: 18px;
+}
+.iupi{
+
+    height: 140px;
+    width: 240px;
+    padding: 10px;
+    border: 4px dashed white;
+}
+#upia,#upis{
+    text-align: center;
+}
+#upia{
+    color: white;
+}
+#upia span{
+    color: red;
+}
+#upisubmit{
+    margin-left: 30%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid red;    
+}
+#upiclose{
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+}
+#upis{
+    color: red;
+}
+#upit{
+    color: white;
+    text-align: center;
+}
+.lass{
+    margin-top: 10px;
+}
+#em{
+    margin-top: 10px;
+}
+@media screen and (max-width:600px){
+    .iupi{
+        height: 140px;
+        width: 280px;
+        padding: 10px;
+        border: 4px dashed white;
+    }
+    .uss{
+        margin-top: 35px;
+    }
+    #upiclose{
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    .iupi{
+        height: 300px;
+        width: 400px;
+        padding: 10px;
+        border: 4px dashed white;
+    }
+    .uss{
+        margin-top: 60px;
+    }
+    #upiclose{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    #upia{
+        font-size: 25px;
+    }
+    #upit{
+        font-size: 25px;
+    }
+    #upisubmit{
+        font-size: 20px;
+    }
+}
